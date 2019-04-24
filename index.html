@@ -1,0 +1,90 @@
+<!-- ne pas modifier le html et le head -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Exercice5jQuery3</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h2>Header</h2>
+  </header>
+  <!-- START Bootstrap-Cookie-Alert -->
+  <!-- container de la page pour mise en forme bootstrap, ne pas toucher -->
+  <nav class="navbar navbar-light justify-content-center">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#!">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!">Link</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <form class="row text-center shadow py-4">
+        <div class="col-12">
+          <h1 class="display-4">jQuery - Exercice 5 :</h1>
+          <p class="lead">Construisez une page html avec un carré et un champ de saisie de texte dans un formulaire.
+            Lorsque l'on appuie sur une touche de direction le carré se déplace de 10 px dans la bonne direction.
+            Quand le bloc atteint un bord de la page, il doit réaparaître de l'autre côté.</p>
+          <hr class="my-2">
+          <!-- Le rectangle -->
+          <div class="row">
+            <div class="rounded p-2 mx-auto d-block test">
+              <div class="square"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <h3>Champ de saissie!!!</h3>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <input id="result" type="text" class="text-center mb-3 w-25 form-control shadow">
+        </div>
+      </form>
+    </div>
+
+
+
+  <!-- form de la Sebastien -->
+    <form class="row">
+        <div class="col-12">
+            <!-- mon carré -->
+            <div id="square" class="shadow">
+                <img src="assets/img/jp.jpeg" alt="JP" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <!-- mon champ de texte -->
+            <input id="controlArea" type="text" class="w-50 form-control mt-5 text-center shadow" placeholder="Gauche || droite.">
+        </div>
+</form>
+
+
+
+  </main>
+  <footer>
+    <p>Footer</p>
+  </footer>
+  <!-- scripts boostrap -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="assets/js/main.js"></script> <!--  mon script js perso -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
